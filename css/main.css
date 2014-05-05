@@ -1,0 +1,63 @@
+/*
+html: index.html
+css: main.css
+author: Emenike Christian
+*/
+
+.wrapper{
+	max-width: 1000px;
+	margin:0 auto ;
+	padding: 0 5%;
+}
+header, footer{
+	background-color: teal;
+	display: block;
+}
+body{
+	
+	font-size: 0.88em;
+	font-family: "Tahoma","san-serif";
+
+}
+
+.logo, header, footer, section{
+	text-align: center;
+}
+
+
+.logo{
+	line-height: 25px;
+}
+
+.logo{
+	color: #F7A52D;
+}
+
+a{
+	text-decoration: none;
+	color: #F7A52D;;
+}
+
+header,nav{
+	display: block;
+}
+
+nav li{
+	display: inline-block;
+	padding-right: 15px;
+	color: #fff;
+	font-weight: bolder;
+}
+
+nav li a:hover{
+	color: #F7A52D;
+}
+
+footer img{
+	width: 26px;
+	height: 26px;
+}
+
+.copyright{
+	text-align: right;
+}
